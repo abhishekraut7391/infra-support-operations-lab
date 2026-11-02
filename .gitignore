@@ -1,0 +1,26 @@
+# Generated diagnostic reports
+reports/
+
+# Python cache / virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editor / operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa*
+
+# Test / tool caches and editor swap files
+.pytest_cache/
+*.swp

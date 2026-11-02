@@ -1,0 +1,7 @@
+Nov 02 09:10:02 lab-web-01 systemd[1]: Started Example Web Service.
+Nov 02 09:11:14 lab-web-01 app[1304]: INFO: health endpoint returned status 200
+Nov 02 09:12:45 lab-web-01 app[1304]: WARNING: response time exceeded the expected threshold (1.8s)
+Nov 02 09:13:01 lab-web-01 app[1304]: ERROR: database connection attempt failed; retry scheduled
+Nov 02 09:13:08 lab-web-01 app[1304]: ERROR: database connection attempt failed; retry scheduled
+Nov 02 09:14:17 lab-web-01 kernel: WARNING: memory pressure observed in the lab environment
+Nov 02 09:16:44 lab-web-01 app[1304]: CRITICAL: worker queue reached the configured safety limit
